@@ -1,0 +1,122 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Lato', sans-serif;
+	line-height: 1.5;
+	color: #fff;
+}
+
+
+.container {
+	width: 992px;
+	margin: 0 auto;
+	
+}
+
+#home {
+	overflow:hidden;
+	background: url("img/home.jpg")no-repeat center center / cover;
+	position: relative;
+		
+}
+#home::after {
+	content:'';
+	position: absolute;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	background: rgba(0, 0, 0, 0.51);
+	
+}
+.home-content {
+	overflow: hidden;
+	width: 60%;
+	margin-right: 3%;
+	float: left;
+	padding:250px 75px 200px 50px;
+	position: relative;
+	z-index: 1;
+	
+}
+.home-content h1 {
+	font-size: 59px;
+	text-transform: uppercase;
+	font-weight: 900;
+	line-height: 69px;
+	
+}
+.home-content p {
+	padding: 10px 0 20px 0px;
+}
+
+.home-content a {
+	text-decoration: none;
+	background: #F98027;
+	font-weight: bold;
+	text-transform: uppercase;
+	padding: 8px 15px;
+	display: inline-block;
+	border-radius: 5px;
+	font-size: 14px;
+	color: #fff;
+}
+.home-content a:hover {
+	color: #eaeaea;
+}
+
+
+
+
+.sign-up {
+	width: 37%;
+	float: left;
+	background: rgba(33, 21, 91, 0.6);
+	padding: 200px 35px;
+	position: absolute;
+	right:0;
+	top:0;
+	bottom: 0;
+	z-index: 1;
+}
+.sign-up h2 {
+	text-transform: uppercase;
+	font-size: 30px;
+}
+.sign-up h2:nth-child(2) {
+	color: #F98027;
+}
+
+
+
+form {
+  width: 100%;
+  margin-top: 20px;
+}
+form input {
+  width: 100%;
+  padding: 12px;
+  font-size: 12px;
+  margin: 7px 0;
+  font-weight: bold;
+  outline: none;
+  border-radius: 5px;
+  border: none;
+}
+
+form input[type=submit] {
+	background: #F98027;
+	border: none;
+	cursor: pointer;
+	text-transform: uppercase;
+	color: #fff;
+}
+form input[type=submit]:hover {
+	color: #eaeaea;
+}
+
+
